@@ -167,3 +167,82 @@
 	height: 143px; 
 	
 }
+
+footer {
+	width: 100%;
+    background: #333;
+    height: 130px;
+	
+}
+
+#footer_wrap{
+	width: 960px;
+	height: 74px;
+	padding: 18px 0 37px 0;
+	margin: 0 auto;
+}
+	
+#ft_logo {
+	float: right;
+}
+	
+#ft_menu {
+	width: 755px;
+	height: 73px;
+	float: left;
+}
+
+#ft_util {
+	width: 755px;
+	height: 21px;
+}
+
+#ft_util a {
+	text-decoration: none;
+	color: #c1c1c1;
+}
+
+#ft_util p{
+	float: left;
+    background: url(https://www.yuhan.co.kr/common/images/icon/foot_icon.gif) no-repeat right 7px;
+	padding-right: 8px;
+    margin-right: 7px;
+    letter-spacing: -0.4px;
+    font-size: 0.8rem;
+    
+}
+
+
+#ft_util2 {
+	width: 755px;
+	height: 21px;
+	margin-top: 15px;
+}
+
+
+#ft_util2 p{
+	float: left;
+    background: url(https://www.yuhan.co.kr/common/images/icon/foot_icon.gif) no-repeat right 7px;
+	padding-right: 8px;
+    margin-right: 7px;
+    color: #c1c1c1;
+    font-size: 0.75rem;
+}
+
+
+#ft_site {
+	width: 157px;
+	height: 35px;
+	float: right;
+}
+	
+#ft_site > select {
+	background-color: #4a4a4a;
+	color: #a9a9a9;
+	border: none;
+	padding: 3px;
+	width: 157px;
+	height: 35px;
+	box-sizing: border-box;
+}
+
