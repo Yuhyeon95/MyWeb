@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+//borderList
+	#board_list {
+		width: 60%;
+		min-height: ;
+	}
+
+	#bl_tb {
+		width :920px;
+		border-spacing: 0px;
+		
+	}
+	
+	#bl_tb th {
+		background-color:black;
+		color: white;
+	}
+	
+	#bl_tb .t1 {
+		width:150px;
+	}
+	
+	#bl_tb .t2 {
+		width: 320px;
+	 }
+	

@@ -4,16 +4,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="../css/common/style.css" />
-<style type="text/css">
-	.d1 {
-		margin-left:100px;
-	
-	}
-	
-	.botton{
-		margin-right: 200px;
-	}
-</style>
+<link rel="stylesheet" href="../css/other/index.css" />
 </head>
 <body>
 		<!-- Header -->
@@ -26,7 +17,9 @@
 	
 	<div id="header_gnb">
 		<div id="header_logo">
-			<img src="https://www.yuhan.co.kr/common/images/icon/logo.gif" alt="유한양행로고" />
+			<a href="/MyWeb/index.html">
+				<img src="https://www.yuhan.co.kr/common/images/icon/logo.gif" alt="유한양행로고" />
+			</a>
 		</div>
 		
 		<nav id="header_nav">
@@ -36,7 +29,7 @@
 			<li><a href="#">연구개발</a></li>
 			<li><a href="#">투자정보</a></li>
 			<li><a href="#">CSR</a></li>
-			<li><a href="./board/board_list.html">BOARD</a></li>
+			<li><a href="/MyWeb/board/board_list.html">BOARD</a></li>
 		</ul>
 		</nav>	
 	</div>
@@ -47,15 +40,15 @@
 		<!-- form 태그 사용 -->
 		<form action="" >
 		
-		<p><label for="title">제목</label><br>
-		<input type="text" placeholder="제목" id="title"></p>
+		<label for="title">제목 : </label>
+		<input type="text" placeholder="제목" id="title"><br>
 		
-		<p><label for="name">작성자 </label><br>
-		<input type="text" placeholder="작성자" id="name"></p>
+		<label for="name">작성자  : </label>
+		<input type="text" placeholder="작성자" id="name"><br>
 		
-		<p><label for="content">내용 </label><br>
-		<textarea placeholder="내용" id="content"></textarea></p>
-		<p><a href="./board_list.html" class="botton"><input type="submit"></a></p>
+		<label for="content">내용  : </label><br>
+		<textarea placeholder="내용" id="content"></textarea>
+		<a href="./board_list.html" class="botton"><input type="submit"></a>
 		</form>
 		
 		

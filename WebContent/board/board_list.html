@@ -4,28 +4,15 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="../css/common/style.css" />
-<style type="text/css">
-	table {
-		width :920px;
-		border-spacing: 0px;
-		
-	}
-	
-	th {
-		background-color:black;
-		color: white;
-	}
-	
-	.t1 {
-		width:150px;
-	}
-	
-	.t2 {
-		width: 320px;
-	 }
-	
-	
-</style>
+<link rel="stylesheet" href="../css/other/index.css" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 		<!-- Header -->
@@ -38,7 +25,9 @@
 	
 	<div id="header_gnb">
 		<div id="header_logo">
-			<img src="https://www.yuhan.co.kr/common/images/icon/logo.gif" alt="유한양행로고" />
+			<a href="/MyWeb/index.html">
+				<img src="https://www.yuhan.co.kr/common/images/icon/logo.gif" alt="유한양행로고" />
+			</a>
 		</div>
 		
 		<nav id="header_nav">
@@ -48,15 +37,15 @@
 			<li><a href="#">연구개발</a></li>
 			<li><a href="#">투자정보</a></li>
 			<li><a href="#">CSR</a></li>
-			<li><a href="./board/board_list.html">BOARD</a></li>
+			<li><a href="/MyWeb/board/board_list.html">BOARD</a></li>
 		</ul>
 		</nav>	
 	</div>
 	</header>
-
+	<section id="board_list">
 	<h1>Board List Page</h1>
 	<!-- 게시판 리스트 -->
-	<table border= "1">
+	<table border= "1" id="bl_tb" class="table">
 		<tr>
 			<th class="t1">No</th>
 			<th class="t2">Subject</th>
@@ -137,10 +126,11 @@
 		
 	
 	</table>
-	<p><botton><a href="./boardWrite.html">글쓰기</botton></p>
+
+	<p><botton><a href="./boardWrite.html">글쓰기</a></botton></p>
 	<!-- 제목 클릭하면 boardSelect 로 이동 -->
 	<!-- 글쓰기를 클릭하면 boardWrite로 이동-->
-	
+	</section>
 	<!-- Footer -->
 	<footer>
 		<div id="footer_wrap">
